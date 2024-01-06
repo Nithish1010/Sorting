@@ -1,6 +1,5 @@
-package Sorting;
 import java.util.Scanner;
-public class BS1
+public class BubbleSort
 {
     public static void main(String args[])
     {
