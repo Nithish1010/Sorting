@@ -1,9 +1,10 @@
 import java.util.Scanner;
-public class SelectionSort {
+public class SelectionSort 
+{
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("How many elements you wants to store: ");
+        System.out.println("Enter the size of array: ");
         int n=sc.nextInt();
         int A[]=new int[n];
         System.out.println("Enter the elements: ");
@@ -36,7 +37,7 @@ public class SelectionSort {
                 System.out.print(num);
             }
         }
-        System.out.println("Before sorting");
+        System.out.println("After sorting");
         for(int num:A)
         {
             System.out.print(num);
