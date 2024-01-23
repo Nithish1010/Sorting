@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class QS
+public class QuickSort
 {
     public static void quicksort(int[] A,int low,int high)
     {
