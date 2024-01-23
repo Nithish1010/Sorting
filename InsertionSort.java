@@ -4,7 +4,7 @@ public class InsertionSort
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter how many elements: ");
+        System.out.println("Enter size of array: ");
         int n=sc.nextInt();
         System.out.println("Enter the elements: ");
         int A[]=new int [n];
@@ -34,7 +34,7 @@ public class InsertionSort
             }
         }
         System.out.println();
-        System.out.println("Before sorting");
+        System.out.println("After sorting");
         for(int nums:A)
         {
             System.out.print(nums+" ");
