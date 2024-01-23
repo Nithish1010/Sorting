@@ -4,7 +4,7 @@ public class BubbleSort
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter how many elements you want to store: ");
+        System.out.println("Enter Size of Array: ");
         int n=sc.nextInt();
         int A[]=new int[n];
         System.out.println("Enter th elements: ");
